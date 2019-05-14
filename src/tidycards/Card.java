@@ -12,5 +12,31 @@ package tidycards;
 public class Card {
 
   private  String nombre, habilidad;
+  
+  public Card(String nombre, String habilidad) {
+        this.nombre = nombre;
+        this.habilidad = habilidad;
+    }
+
+    public Card() {
+        this.nombre = "";
+        this.habilidad = "";
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getHabilidad() {
+        return habilidad;
+    }
+
+    public void setHabilidad(String habilidad) {
+        this.habilidad = habilidad;
+    }
 
 }
